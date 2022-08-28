@@ -5,6 +5,7 @@ body {
 html {
     --orange-color-dark:#ea580c;
     --orange-color: #F97316;
+    --orange-light: #FFEDD5;
 }
 .background {
     background-image: url("landing-materials/hero.jpg"); 
@@ -57,7 +58,8 @@ a {
     width: 400px;
     font-size: 20px;
     font-weight: 300;
-    margin-top:50px ;
+    margin-top:50px;
+    margin-bottom: 50px;
     color: rgb(94, 94, 94);
 }
 .button {
@@ -66,7 +68,6 @@ a {
     font-size: 20px;
     border-radius: 8px;
     padding: 16px 32px;
-    margin-top: 50px;
     border: none;
 }
 .button:hover {
@@ -135,4 +136,40 @@ a {
 .main-image {
     width: 500px;
     margin-left: 50px;
+}
+
+.form {
+    background-color: var(--orange-light);
+    margin-top: 50px;
+}
+.form-conteiner {
+    max-width: 1024px;
+    width: 100%;
+    margin: 0 auto;
+}
+.form-title {
+    font-size: 36px;
+    font-weight: 700;
+    text-align: center;
+    padding-top: 100px;
+}
+.form-text {
+    color: #57534E;
+    font-size: 18px;
+    text-align: center;
+    padding-top: 20px;
+}
+.form-button {
+    margin: 70px;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 100px;
+}
+.form-name {
+    height: 50px;
+    font-size: 20px;
+    padding-left: 5px;
+    border: 1px solid #D6D3D1;
+    border-radius: 8px;
+    margin-right: 10px;
 }
