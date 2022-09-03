@@ -171,6 +171,7 @@ html {
     margin-right: 10px; 
 }
 .form-name:focus {
+   outline: 1px solid #D6D3D1;
    outline-color: var(--orange-color);   
 }
 .section {
