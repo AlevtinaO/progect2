@@ -33,19 +33,17 @@ html {
     display: flex;
     
 }
-a:hover {
+.link-style:hover {
     color: var(--orange-color-dark);  
 }
-a {
+.link-style {
     text-decoration: none;
     color: black; 
-    padding-left: 20px;  
+    padding-left: 20px;   
 }
 .phone {
     display: flex;
-}
-.icon {
-    padding-right: 10px;
+    gap:10px;
 }
 
 .header-title {
@@ -71,7 +69,7 @@ a {
     border: none;
 }
 .button:hover {
-    background-color: #883d07;
+    background-color: var(--orange-color-dark);
 }
 
 .main-title {
@@ -170,9 +168,10 @@ a {
     padding-left: 5px;
     border: 1px solid #D6D3D1;
     border-radius: 8px;
-    margin-right: 10px;
-    outline-color: #ea580c;
-   
+    margin-right: 10px; 
+}
+.form-name:focus {
+   outline-color: var(--orange-color);   
 }
 .section {
     background-color:#FAFAF9;
@@ -196,4 +195,86 @@ a {
     color: #57534e;
     line-height: 20px;
     margin-top: 20px;
+}
+
+.product {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-bottom: 70px;
+    padding-top: 50px; 
+}
+.box-product {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: 1px solid #D6D3D1;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 10px;
+    flex-basis: 300px;
+}
+.product-title {
+    font-size: 18px;
+    color: var(--orange-color);
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.price {
+    font-size: 22px;
+    font-weight: 600;
+    padding-bottom: 20px;
+}
+.product-details {
+  flex-grow: 1;  
+}
+.item {
+    display: flex;
+    flex-direction: row;
+    padding-top: 10px;
+    font-size: 14px;
+    color: #78716C;
+}
+.price-icon {
+    color: #65a30d;
+    width: 20px;
+    margin-right: 5px;
+  }
+.product-button {
+    background-color: #FFEDD5;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    color: var(--orange-color-dark);
+    padding: 10px 20px;
+    margin-top: 20px;  
+}
+.product-button:hover {
+    background-color: var(--orange-color);
+        color:white;
+}
+
+.footer {
+    background-color: #E7E5E4;
+    height: 150px;
+    margin-top: 50px;
+}
+.footer-contact {
+    color: #78716C;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 50px;
+    
+}
+.footer-social {
+    font-size: 25px;
+    
+}
+.footer-link {
+   color: #78716C;
+   text-decoration: none;  
+}
+.footer-link :hover {
+   color: var(--orange-color)
 }
